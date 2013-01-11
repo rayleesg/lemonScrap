@@ -1,7 +1,8 @@
 lemonScrap
 ==========
 
-lemonScrap is a PHP class to make web scraping easier.
+lemonScrap is a PHP class to help basic web scraping easier by just writing some rules 
+(at the current moment) either with regex or DOMpath.
 
 Your are free to use this class for whatever you like.
 The example of usage are given. in ls-*.php files.
