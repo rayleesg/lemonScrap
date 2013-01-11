@@ -2,7 +2,7 @@
 
 /*
  * lemonScrap.php
- * by sphinx <cool01@gmail.com>
+ * by sphinxid <cool01@gmail.com>
  * 01/10/2013
  *
  */
