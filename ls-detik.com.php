@@ -8,7 +8,7 @@ $rules2 = array();
 
 $rules1[] = array(
     //'startFrom' => '',
-    'max' => 20,
+    'max' => 10,
     'key' => 'url',
     'skipIfNotContainString' => '/read/',
     //'regex' => '/<li><div><a href="(.*?)\?utm.+?"/s',

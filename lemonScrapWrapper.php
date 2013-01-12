@@ -15,7 +15,7 @@ function lemonScrapNewsWrapper($targetURL, $rules1, $rules2) {
     $ls->scrap();
     
     $data1 = $ls->getResults();
-    
+    print_r($data1);
     foreach($data1['url'] as $url) {    
         $ls2 = new LemonScrap();
         $ls2->setFirstURL($url);
@@ -23,7 +23,7 @@ function lemonScrapNewsWrapper($targetURL, $rules1, $rules2) {
         $ls2->setRules($rules2);
         $ls2->scrap();
         
-        $data2[] = $ls2->getResultsInJSON();
+        $data2[] = $ls2->getResults();
         unset($ls2);
     } unset($ls);
 
