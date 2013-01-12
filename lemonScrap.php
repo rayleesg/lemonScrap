@@ -56,7 +56,8 @@ class LemonScrap {
 
         $res = curl_exec($ch);
         curl_close($ch);
-        return $res;        
+        
+        return utf8_encode($res);        
     }
     
     function scrap() {
@@ -294,6 +295,7 @@ class LemonScrap {
                     
                     // we skip over the data we already parsed.
                     $tmpData = strstr($tmpData, $tmpResultRawData);
+                    $tmpData = substr($tmpData, strlen($tmpResultRawData));
 
                     // debug
                     //echo substr($tmpData, 0, 500)."---------------------------\n";
