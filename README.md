@@ -11,3 +11,5 @@ It uses:
 - cURL (to connect to http)
 - regex (for rules parsing and modify the result)
 - DOMpath (for rules parsing)
+
+&copy; 2011 Firman Gautama - firman@kodelatte.com
